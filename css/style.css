@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body {
+ background: linear-gradient(to bottom, #13cee2, #0c739f);
+ font-family: Tahoma, Sans-serif, Arial;
+}
+
+h3 {
+  padding: 14px 0 3px;
+  text-align: center;
+  color: #424c43;
+  font-size: 22px;
+  font-family: Sans-serif, Arial;
+}
+
+.fon {
+  position: absolute;
+  width: 100%;
+  height: 176px;
+  z-index: -1;
+}
+
+
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 28px 0px rgba(30, 30, 30, 1);
+  -moz-box-shadow:    0px 0px 28px 0px rgba(30, 30, 30, 1);
+  box-shadow:         0px 0px 28px 0px rgba(30, 30, 30, 1);
+}
+
+
+header {
+  height: 176px;
+  position: relative; 
+}
+
+
+.logo {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+}
+
+.logo_text {
+  position: absolute;
+  top: 109px;
+  left: 99px;
+  font-size: 12px;
+  color: #61b1c4;
+}
+
+
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+.arrow {
+  position: absolute;
+  top: 430px;
+  left: 265px;
+  z-index: 2;
+}
+
+
+
+
+.right_header {
+  float: right;
+  padding-right: 28px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+
+.right_header p {
+  margin-left: 253px;
+  font-size: 12px;
+  text-align: left;
+  color: #61b1c4;
+}
+
+.contacts{
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+
+.right_header ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+.right_header ul li {
+  float: left; 
+  width: 65px;
+}
+
+.right_header ul li a {
+  font-size: 10px;
+  color: #61b1c4;
+  text-align: center;
+}
+
+
+.right_header ul li a .country { 
+  width: 42px;
+  height: 42px;
+}
+
+
+
+/*----------------------------  MENU ------------------------------------*/
+
+ul.nav {
+  list-style: none;
+  height: 32px;
+  background-color: #333;
+}
+
+
+ul.nav li {
+  float: left;
+  margin: 0 28px;
+  padding: 5px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+ 
+
+
+ul.nav li ul {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  margin: 0;
+  padding: 3px;
+  width: 150px;
+  background: #303030;
+}
+
+
+ul.nav li ul li {
+float: none;
+display: block;
+margin: 0px;
+padding: 10px;
+}
+
+
+ul.nav li:hover ul  {
+display: block;
+ color: #fff;
+  text-decoration: none;
+
+}
+
+
+/*-------------------------------- MIDDLE BLOCK ------------------------------------*/
+
+
+.container {
+  position: relative;
+  overflow: hidden;
+  background: url(../img/bg_columns.png) repeat-y;
+ 
+}
+
+
+.news {
+  float: right;
+  width: 209px;
+  background: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  color: #424c43;
+  margin-left: 15px;
+}
+
+
+.news p {
+  padding: 4px 0px 4px 16px;
+  font-size: 14px;
+}
+
+
+
+.info {
+  float: left;
+  width: 209px;
+  background: #edeef0;
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  color: #424c43;
+  margin-right: 20px;
+}
+
+.info p {
+  padding: 4px 0px 4px 16px;
+  font-size: 14px;
+}
+
+
+
+article {
+  width: 530px; 
+  color: black;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+aticle p {
+ padding: 10px;
+}
+
+
+
+/*-------------------------------- END OF MIDDLE BLOCK ---------------------------------------*/
+
+
+.copy {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+}
+
+
+.clearfix:after {
+  content: '.';
+  visibility: hidden;
+  height: 0px;
+  clear: both;
+  diplay: block;
+}
